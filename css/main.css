@@ -1,0 +1,162 @@
+body {
+    margin: 10px;
+    background-color: #BD7530;
+
+}
+
+
+.header {
+    height: 200px;
+    width: 100%;
+}
+
+.katabrain {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.katatitle{
+    position:absolute;
+    font-size: 64pt;
+    text-align: center;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    
+}
+.katatitle p {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    }
+
+.IK {
+    position:absolute;
+    top: 5px;
+    right: 10px;
+    height: 200px;
+    width: 100%;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.kata-ne {
+    margin: 10px;
+    font-size: 18pt;
+    background-color: #AC4410;
+}
+
+.scifi-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.kata-scifi {
+    margin: 10px;
+    height: 500px;
+    font-size: 18pt;
+    background-color: #3D3A30;
+}
+
+.scifi-photos {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    margin: 10px;
+}
+
+.pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-animation: fade 20s infinite;
+    animation: fade 20s infinite;
+}
+
+#p1 {
+    animation-delay: 0s;
+    background-image: url('bestbuds.png');
+  }
+#p2 {
+    background-image: url('cheezbeer.JPG');
+    animation-delay: 5s;
+}
+#p3 {
+    background-image: url('closeup.png');
+    animation-delay: 10s;
+}
+#p4 {
+    background-image: url('closeup2.png');
+    animation-delay: 20s;
+}
+
+  @-webkit-keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    15% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    15% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+.resource-wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.rec-photo {
+    display: flex;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.socials {
+    margin: 10px;
+    background-color: #AC4410;
+}
+
+
