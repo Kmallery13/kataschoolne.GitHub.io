@@ -20,25 +20,43 @@
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>                      
+                    <li><a href="contact.html">CONTACT</a></li>                    
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>About Me</h1>
+        <h1>Contact Us</h1>
     </section>
 
-    <section class="about-me">
+    <section class="contact">
         <div class="row">
-            <div class="about-col">
-                <h1>Kelly Mallery</h1>
-                <p>Talk about you and your amazing accomplishments</p>
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+1 444-444-4444</h5>
+                        <p> Hours Maybe? </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>kelly.mallery@katane.com</h5>
+                        <p> Email me with any questions! </p>
+                    </span>
+                </div>
             </div>
-            <div class="about-col">
-                <img src="images/">
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter subject" required>
+                    <textarea rows="8" name="message" placeholder="Message Body" required></textarea>
+                    <button type="submit" class="hero-btn red-btn"> Send Message</button>
+                </form>
             </div>
-        </div>
 
+        </div>
     </section>
 
     <section class="footer">
