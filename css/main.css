@@ -4,7 +4,7 @@
 }
 
 .header {
-  min-height: 100vh;
+  min-height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(56,87,35,1.0), rgba(219,100,19,1.0));
   background-position: center;
@@ -126,7 +126,7 @@ nav .fa {
 }
 
 
-/* ABOUT KATA */
+/*------------ABOUT KATA-------------*/
 
 .about-kata{
   background: rgba(73,67,68,1.0);
@@ -183,7 +183,7 @@ nav .fa {
     flex-direction: column;
   } 
 }
-/* Resources */
+/*------------Resources-------------*/
 .resources{
   width: 80%;
   margin: auto;
@@ -236,7 +236,7 @@ nav .fa {
 }
 
 
-/* FOOTER */
+/*------------FOOTER-------------*/
 
 .footer{
   width: 100%;
@@ -255,4 +255,43 @@ nav .fa {
   margin: 0 13px;
   cursor: pointer;
   padding: 18px 0;
+}
+
+/*------------About me page-------------*/
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(56,87,35,1.0), rgba(219,100,19,1.0));
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1{
+  margin-top: 100px;
+}
+
+.about-me{
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.about-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.about-col img{
+  width: 100%;
+}
+
+.about-col h1{
+  padding-top: 0;
+}
+
+.about-col p{
+  padding: 15px 0 25px;
 }
