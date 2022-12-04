@@ -5,73 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Kata School North East
     </title>
 </head>
 <body>
-    <div class="header">
-        <div class="katabrain" style="background-image:url(images/KATA-School-Logo-Icon.png)"></div>
-        <div class="IK" style="background-image:url(images/IK.png)"></div> 
-        <div class="katatitle">KATA NE</div>
-    </div>
-    <div class="kata-ne">
-        <h1>Welcome to Kata School New England and I guess plus New York....</h1>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nibh enim, 
-        fringilla ut efficitur non, efficitur vel urna. Nam nec lacinia mi, nec 
-        mattis lorem. Pellentesque ligula tellus, varius sed sagittis vitae, 
-        lacinia id nunc. Vivamus et convallis ligula. Ut fermentum lorem vitae
-         posuere porttitor. Curabitur ornare nibh vel malesuada scelerisque. 
-         Orci varius natoque penatibus et magnis dis parturient montes, nascetur 
-         ridiculus mus. Curabitur a nulla feugiat lectus pellentesque ultrices 
-         vitae quis lorem. Duis vestibulum, purus gravida blandit lacinia, tortor 
-         eros hendrerit ligula, eu iaculis enim odio sit amet libero. Duis ut
-          nunc nisl. Curabitur porttitor quam erat, vel consequat ipsum maximus 
-          in. Vestibulum commodo mollis tristique. Nulla dapibus diam in dolor 
-          tincidunt, non condimentum quam condimentum. Donec id pharetra nunc. 
-          Suspendisse sit amet est lobortis, suscipit orci sit amet, pretium augue.
-        </div>
-    <div class="scifi-wrapper">
-        <div class="kata-scifi">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet 
-            fermentum ligula, ac posuere ligula sagittis vel. Etiam pulvinar magna 
-            et massa ullamcorper tempor. Nam eget ex ipsum. Duis tincidunt tellus 
-            in justo vehicula, in volutpat risus ultrices. Vestibulum ante ipsum 
-            primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque 
-            ultricies tincidunt vehicula. Aenean accumsan posuere elit eget placerat. 
-            Suspendisse gravida tortor dignissim, tempor ligula sed, ultrices ex. Cras 
-            in augue elit. Nullam at semper mauris. Phasellus dapibus blandit hendrerit. 
-            Aenean gravida elit non odio tempor suscipit. Fusce in ante accumsan ligula 
-            pulvinar condimentum. Nulla eget faucibus diam.
-        </div>
-        <div class="scifi-photos">
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/KSNE_Logo.png"></a>
             
-                   
-            <div class="pic"  id=p4></div>
-            <div class="pic"  id=p3></div>
-            <div class="pic"  id=p2></div>
-            <div class="pic"  id=p1></div>
-                
-            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>KATA North East</h1>
+            <p>
+                Kelly Mallery's KATA School for the North East US!
+            </p>
+            <a href="" class="hero-btn">About Me</a>
         </div>
-    </div>
-    <div class="resource-wrapper">
-     
-            <div class="rec-photo" style="background-image:url(images/raisapeak.png)"></div>
-            <div class="rec-photo" style="background-image:url(images/raisapeak.png)"></div>
-            <div class="rec-photo" style="background-image:url(images/raisapeak.png)"></div>
-            <div class="rec-photo" style="background-image:url(images/raisapeak.png)"></div>
-            <div class="rec-photo" style="background-image:url(images/raisapeak.png)"></div>
-            <div class="rec-photo" style="background-image:url(images/raisapeak.png)"></div>
+
+    </section>
+
+    <section class="about-kata">
+        <h1>About KATA NE</h1>
+        <p>Write about KATA NE here, Kelly! </p>
+        <div class="row">
+            <div class="row-col">
+                <h3>Manifesto</h3>
+                <p> Maybe a link to the manifesto? </p>
+            </div>
+            <div class="row-col">
+                <h3>SciFi</h3>
+                <p> Insert SciFi Things About? </p>
+            </div>
+            <div class="row-col">
+                <h3>PlaceHolder</h3>
+                <p> Maybe more stuff!! </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="resources">
+        <h1>Resources</h1>
+        <p>This where be be placing all the Resource blockies</p>
+        <div class="row">
+            <div class="resources-row">
+                <img src="images/raisapeak.png">
+                <div class="layer">
+                    <h3>Books</h3>
+                </div>
+            </div>
+            <div class="resources-row">
+                <img src="images/raisapeak.png">
+                <div class="layer">
+                    <h3>10 Starter Kata</h3>
+                </div>
+            </div>
+            <div class="resources-row">
+                <img src="images/raisapeak.png">
+                <div class="layer">
+                    <h3>Being a Learner</h3>
+                </div>
+            </div>
+            <div class="resources-row">
+                <img src="images/raisapeak.png">
+                <div class="layer">
+                    <h3>Being a Coach</h3>
+                </div>
+            </div>
+            <div class="resources-row">
+                <img src="images/raisapeak.png">
+                <div class="layer">
+                    <h3>Mike Rother</h3>
+                </div>
+            </div>
+            <div class="resources-row">
+                <img src="images/raisapeak.png">
+                <div class="layer">
+                    <h3>Videos</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>some text</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/kelly-mallery-123b0628/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://images.unsplash.com/photo-1442458370899-ae20e367c5d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"><i class="fa fa-instagram"></i></a>
+        </div>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
         
-    </div>
-        
-    <div class="socials">
-        Contact ME:
-        LinkedIn
-        Twitter
-        OnlyFans
-        Instagram
-        Discord
-    </div>
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
 </body>
 </html>
+
