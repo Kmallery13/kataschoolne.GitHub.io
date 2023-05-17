@@ -3,10 +3,14 @@
   padding: 0;
 }
 
+.mainbody {
+  background-image: linear-gradient(rgba(56,87,35,1.0), rgba(219,100,19,1.0));
+}
+
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(56,87,35,1.0), rgba(219,100,19,1.0));
+  
   background-position: center;
   background-size: cover;
   position: relative;
@@ -113,7 +117,8 @@ nav .fa {
   }
   .nav-links{
     position: fixed;
-    background: #f44336;
+    background: #333333;
+    opacity: 0.8;
     height: 100vh;
     width: 200px;
     top: 0;
@@ -139,7 +144,7 @@ nav .fa {
 /*------------ABOUT KATA-------------*/
 
 .about-kata{
-  background: rgba(73,67,68,1.0);
+  background: rgba(73,67,68,0.7);
 }
 
 
@@ -261,7 +266,7 @@ nav .fa {
 }
 
 .icons .fa{
-  color:#f44336;
+  color:#020202;
   margin: 0 13px;
   cursor: pointer;
   padding: 18px 0;
